@@ -2,7 +2,7 @@
 """
 Created on Wed Nov  9 04:48:17 2016
 
-@author: laman
+@author: ChangdongOh
 """
 
 
