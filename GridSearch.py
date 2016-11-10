@@ -2,7 +2,7 @@
 """
 Created on Wed Nov  9 02:58:58 2016
 
-@author: laman
+@author: ChangdongOh
 """
 
 def read_data(filename): 
