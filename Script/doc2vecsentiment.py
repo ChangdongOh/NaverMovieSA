@@ -40,6 +40,7 @@ test_docs = [(tokenize(row[1]), row[0]) for row in test_data]
 from collections import namedtuple
 TaggedDocument = namedtuple('TaggedDocument', 'words tags')
 
+#doc2vec에 맞는 형태로 변환
 tagged_train_docs = [TaggedDocument(d, [c]) for d, c in train_docs] 
 tagged_test_docs = [TaggedDocument(d, [c]) for d, c in test_docs]
 
